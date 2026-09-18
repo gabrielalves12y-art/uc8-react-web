@@ -15,3 +15,8 @@ export interface Emprestimo {
   situacao: SituacaoEmprestimo;
   devolucao?: string;
 }
+
+interface CartaoLivroProps {
+livro: Livro;
+minimoExemplares?: number;
+}
