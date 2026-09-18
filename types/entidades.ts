@@ -16,7 +16,7 @@ export interface Emprestimo {
   devolucao?: string;
 }
 
-interface CartaoLivroProps {
+export interface CartaoLivroProps {
 livro: Livro;
 minimoExemplares?: number;
 }

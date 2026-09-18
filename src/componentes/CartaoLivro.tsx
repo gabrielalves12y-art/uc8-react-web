@@ -1,4 +1,4 @@
-import type { Livro } from '../entidades';
+import type { Livro } from '../../types/entidades';
 
 interface CartaoLivroProps {
   livro: Livro;
